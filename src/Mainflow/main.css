@@ -2,7 +2,6 @@
     display: inline-flex;
     align-items: flex-start;
     gap: var(--Outer-Radius, 24px);
-    margin-top: 150px;
     margin-left: 80px;
 }
 .help{
@@ -53,4 +52,65 @@
 .text-information1{
     margin-top: 3px;
     color:#0E75C5 ;
+}
+hr{
+    margin-top: 100px ;
+    margin-bottom: 40px;
+}
+.Mainflow-nav{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: var(--Outer-Radius, 24px);
+    background: #FFF;
+    box-shadow: 4px 4px 40px 0px rgba(20, 20, 20, 0.10);
+    cursor: pointer;
+    padding: 15px;
+}
+.nav:hover{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color:#0E75C5;
+}
+.nav2:hover{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color:#0E75C5;
+}
+.imagesize{
+    height: 400px;
+    width: 900px;
+}
+.overview{
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+    /* margin-left: 150px; */
+    gap: 10px;
+    background: #F0F0F0;
+    width: 100%;
+   
+}
+.arrowicon{
+    margin-right: 20px;
 }

@@ -1,9 +1,16 @@
 import React from 'react'
+import { useState } from 'react';
 import AddtoChromeButton from './AddtoChromeButton'
 import './main.css'
 function Mainflow() {
+    const [isClicked, setIsClicked] = useState(false);
+
+  const handleClick = () => {
+    setIsClicked(!isClicked);
+  };
   return (
     <div>
+        <hr />
       <div className='header'>
         <img src='icon.png' />
         <h2 className='help'>HelpMeOut</h2>
@@ -27,6 +34,17 @@ function Mainflow() {
        <div className='border'></div>
        <p className='text-information'>80,000+ users</p>
    </div>
+   <div className='Mainflow-nav'>
+     <p className='nav'>Overview</p>
+     <p className='nav2'>privacy practices</p>
+     <p className='nav2'>Review</p>
+     <p className='nav2'>Related</p>
+     </div>
+     <div className='overview'>
+     <img className='arrowicon' src='arrow 1.png' />
+     <img className='imagesize' src='fullpicture.png' />
+     <img className='arrowicon' src='arrow 2.png' />
+     </div>
    </div>
   )
 }

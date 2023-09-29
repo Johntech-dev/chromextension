@@ -9,4 +9,5 @@ button.addtochrome{
     color: white;
     margin-left: 850px;
     margin-top: 20px;
+    cursor: pointer;
 }
