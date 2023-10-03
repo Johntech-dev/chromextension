@@ -10,12 +10,6 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_icon": {
-      "48": "icon.png"
-    },
-    "default_title": "HelpMeOut,"
-  },
-  "icons": {
-    "48": "icon.png"
+    "default_title": "HelpMeOut"
   }
 }

@@ -1,9 +1,24 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [],
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    colors: {
+      background: "#f4f6f8",
+      grey: "#616163",
+      primary: "#120B48",
+      secondary: "#141414",
+      tertiary: "#1B233D",
+      white: "#FFF",
+    },
+    extend: {
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        worksans: ["Work Sans", "sans-serif"],
+        sora: ["Sora", "sans-serif"],
+        sen: ["Sen", "sans-serif"],
+      },
+    },
   },
   plugins: [],
-}
+};
 
